@@ -1,43 +1,49 @@
-# Replication Materials for "Culturally Prompted LLMs Remain Anchored to Western Values"
+# Replication Materials for 
+# *Culturally Prompted LLMs Remain Anchored to Western Values*
 
-The repository includes the code used for data processing, analysis, and figure/table generation reported in the paper.
+The repository includes the code used for data processing, statistical analyses, and the generation of figures and tables reported in the main text and Supplementary Material.
 
+--- 
 ## Repository Structure
 
 ```text
 .
-|── Python/                                 # Python code for the analyses
+|── Python/                                 # Python code for data processing and analyses
 │   ├── 0.1_wvs_exploration.ipynb           # WVS item selection
-│   ├── 0.2_wv7_data_processing.ipynb       # data processing for human responses in WVS wave-7
-│   ├── 0.3_llm_prompts.ipynb               # organize LLM prompts
-│   ├── 0.4_llm_experiment.ipynb            # call LLM API
-│   ├── 0.5_llm_data_processing.ipynb       # data processing for LLM generated responses
-│   ├── fig1_country_classifier.ipynb       # reproducible code and analyses for figure1 in main text
-│   ├── fig2_error_byCtry.ipynb             # reproducible code and analyses for figure2 in main text
-│   ├── fig3_IGW_mapping.ipynb              # reproducible code and analyses for figure3 in main text
-│   ├── fig4_IGW_bias.ipynb                 # reproducible code and analyses for figure4 in main text
-│   ├── fig5_error_cluster.ipynb            # reproducible code and analyses for figure5 in main text
-│   ├── sup_error_byItem.ipynb              # reproducible code and analyses for item error analyses in the supplementary material
-│   └── sup_robustness_check.ipynb          # reproducible code and analyses for robustness test and sensitivity analyses in the supplementary material
+│   ├── 0.2_wv7_data_processing.ipynb       # Data processing for human responses from WVS wave-7
+│   ├── 0.3_llm_prompts.ipynb               # Construct and organize LLM prompts
+│   ├── 0.4_llm_experiment.ipynb            # Collect LLM responses via API
+│   ├── 0.5_llm_data_processing.ipynb       # Process LLM-generated reponses
+|   |
+│   ├── fig1_country_classifier.ipynb       # Analyses and code for Figure 1 
+│   ├── fig2_error_byCtry.ipynb             # Analyses and code for Figure 2 
+│   ├── fig3_IGW_mapping.ipynb              # Analyses and code for Figure 3 
+│   ├── fig4_IGW_bias.ipynb                 # Analyses and code for Figure 4
+│   ├── fig5_error_cluster.ipynb            # Analyses and code for Figure 5
+|   |
+│   ├── sup_error_byItem.ipynb              # Item-level error analyses in the Supplementary Material
+│   └── sup_robustness_check.ipynb          # Robustness and sensitivity analyses in the Supplementary Material
 │
 ├── R/                       # R code and generated files 
-│   └── lg_mixed.R           # R code for linear mixed effect model
+│   └── lg_mixed.R           # Linear mixed effect model
 │
 │
-├── data/                    # Raw input data and processed data
+├── data/                    # Raw and processed data
 │
 │
 ├── figures/
 │   ├── main_fig/            # Figures in the main text
-│   |── gpt/                 # Figures for GPT models in the supplemental material
-|   |── claude/              # Figures for Claude models in the supplemental material
-|   └── deepseek/            # Figures for DeepSeek models in the supplemental material
+│   |── gpt/                 # GPT Figures in the Supplementary Material
+|   |── claude/              # Claude Figures in the Supplementary Material
+|   └── deepseek/            # DeepSeek Figures in the Supplementary Material
 │
 └── README.md
 
-##Data
+---
 
-This project uses data from the World Values Survey (WVS).Two WVS datasets used in the analysis exceed GitHub's file-size limit and are therefore not included in this repository. They can be downloaded directly from the World Values Survey website:
+## Data
+
+This project uses data from the **World Values Survey (WVS)**. Two WVS datasets used in the analysis exceed GitHub's file-size limit and are therefore **not included** in this repository. They can be downloaded directly from the World Values Survey website:
 
 WVS_Cross-National_Wave_7_csv_v6_0.csv
 WVS Wave 7 (2017–2022):
@@ -47,20 +53,39 @@ WVS_Time_Series_1981-2022_csv_v5_0.csv
 WVS Time Series (1981–2022):
 https://www.worldvaluessurvey.org/WVSDocumentationWVL.jsp
 
-In additon to the two over-sized files, all other data are in the "/data/" folder.
+All other data required to reproduce the analyses are available in the "data/" directory.
 
 ## Software Requirements
 
 The analyses were conducted using:
+- Python version 3.13.5
+- R version 4.6.1 (2026-06-24)
 
-Python version 3.13.5
-R version 4.6.1 (2026-06-24)
+Additional Python and R package dependencies are documented in the corresponding analysis scripts and notebooks.
+
+## Reproducing the Analyses
+
+The numbered notebooks in the Python/ directory correspond to the main stages of the data-processing pipeline:
+
+0.1_wvs_exploration.ipynb
+        ↓
+0.2_wv7_data_processing.ipynb
+        ↓
+0.3_llm_prompts.ipynb
+        ↓
+0.4_llm_experiment.ipynb
+        ↓
+0.5_llm_data_processing.ipynb
+
+The remaining notebooks reproduce the analyses and figures reported in the paper and Supplementary Material.
+
+The R script R/lg_mixed.R contains the linear mixed-effects model analyses and resulting files.
 
 ## License
 
 Code in this repository is released under the MIT License.
 
-The World Values Survey data are subject to the WVS's own terms of use and are not redistributed through this repository.
+World Values Survey data are subject to the WVS's own terms of use and are not redistributed through this repository.
 
 ## Contact
 
