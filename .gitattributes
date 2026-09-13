@@ -1,0 +1,2 @@
+data/wvs7_fillmis.csv filter=lfs diff=lfs merge=lfs -text
+data/wvs7_scaled.csv filter=lfs diff=lfs merge=lfs -text

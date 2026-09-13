@@ -1,0 +1,55 @@
+Generalized linear mixed model fit by
+  maximum likelihood (Laplace  Approximation)
+ [glmerMod]
+ Family: binomial  ( logit )
+Formula: 
+correct ~ abs_weight_z * cultural_dist2US_z + (1 | item) + (1 |  
+    country)
+   Data: df
+
+      AIC       BIC    logLik -2*log(L) 
+   4273.9    4314.0   -2131.0    4261.9 
+ df.resid 
+     5844 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-7.2723  0.1455  0.2552  0.4020  2.8758 
+
+Random effects:
+ Groups  Name        Variance Std.Dev.
+ item    (Intercept) 1.7468   1.3217  
+ country (Intercept) 0.1277   0.3574  
+Number of obs: 5850, groups:  
+item, 117; country, 50
+
+Fixed effects:
+                                Estimate
+(Intercept)                      2.27155
+abs_weight_z                    -0.24943
+cultural_dist2US_z              -0.36147
+abs_weight_z:cultural_dist2US_z -0.04307
+                                Std. Error
+(Intercept)                        0.14419
+abs_weight_z                       0.03908
+cultural_dist2US_z                 0.06649
+abs_weight_z:cultural_dist2US_z    0.03859
+                                z value
+(Intercept)                      15.754
+abs_weight_z                     -6.383
+cultural_dist2US_z               -5.437
+abs_weight_z:cultural_dist2US_z  -1.116
+                                Pr(>|z|)    
+(Intercept)                      < 2e-16 ***
+abs_weight_z                    1.73e-10 ***
+cultural_dist2US_z              5.43e-08 ***
+abs_weight_z:cultural_dist2US_z    0.264    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) abs_w_ c_2US_
+abs_weght_z -0.047              
+cltrl_d2US_ -0.053 -0.001       
+abs__:_2US_ -0.025 -0.205 -0.064

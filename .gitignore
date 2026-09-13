@@ -5,3 +5,5 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+data/WVS_Cross-National_Wave_7_csv_v6_0.csv
+data/WVS_Time_Series_1981-2022_csv_v5_0.csv

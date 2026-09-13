@@ -1,0 +1,128 @@
+survey_q,q_content,code,set,s_category
+Q1,Family,A001,C10,Important in life
+Q2,Friends,A002,C10,Important in life
+Q3,Leisure time,A003,C10,Important in life
+Q4,Politics,A004,C10,Important in life
+Q5,Work,A005,C10,Important in life
+Q6,Religion,A006,C10,Important in life
+Q27,One of main goals in life has been to make my parents proud,D054,C21,Values
+Q28,Pre-school child suffers with working mother,D061,C21,Values
+Q29,Men make better political leaders than women do,D059,C21,Values
+Q30,University is more important for a boy than for a girl,D060,C21,Values
+Q31,Men make better business executives than women do,D078,C21,Values
+Q32,Being a housewife just as fulfilling,D057,C21,Values
+Q33,Men should have more right to a job than women (5 categories),C001_01,C19,Duty and Rights
+Q33_3,Men should have more right to a job than women (3 categories),C001,C19,Duty and Rights
+Q34_3,Employers should give priority to (nation) people than immigrants (3 categories),C002,C19,Duty and Rights
+Q34,Employers should give priority to (nation) people than immigrants (5 categories),C002_01,C19,Duty and Rights
+Q35,Problem if women have more income than husband (5 categories),D066_01,C19,Duty and Rights
+Q35_3,Problem if women have more income than husband (3 categories),D066_B,C19,Duty and Rights
+Q37,Duty towards society to have children,D026_03,C19,Duty and Rights
+Q38,It is childs duty to take care of ill parent,D026_05,C19,Duty and Rights
+Q39,People who don´t work turn lazy,C038,C19,Duty and Rights
+Q40,Work is a duty towards society,C039,C19,Duty and Rights
+Q41,Work should come first even if it means less spare time,C041,C19,Duty and Rights
+Q42,Basic kinds of attitudes concerning society,E034,C26,Attitude to Society
+Q43,Less importance placed on work,E015,C3,Future changes
+Q44,More emphasis on technology,E016,C3,Future changes
+Q45,Greater respect for authority,E018,C3,Future changes
+Q46,Feeling of happiness,A008,C11,Happiness
+Q47,State of health (subjective),A009, C12, State of health
+Q48,How much freedom of choice and control,A173,C17,Freedom of Choice and Control
+Q49,Satisfaction with your life,A170,C16,Satisfaction
+Q50,Satisfaction with financial situation of household,C006,C16,Satisfaction
+Q51,Gone without enough food to eat,H008_01,C49,Frequency you/family (last 12 month)
+Q52,Felt unsafe from crime in your own home,H008_02,C49,Frequency you/family (last 12 month)
+Q53,Gone without needed medicine or treatment that you needed,H008_03,C49,Frequency you/family (last 12 month)
+Q54,Gone without a cash income,H008_04,C49,Frequency you/family (last 12 month)
+Q55,Gone without a safe shelter over your head,H008_09,C49,Frequency you/family (last 12 month)
+Q56,Standard of living comparing with your parents,E277,C35,Standard of Living
+Q57,Most people can be trusted,A165,C7,Trust Most People
+Q58,Your family (B),D001_B,C20,Trust
+Q59,Your neighborhood (B),G007_18_B,C20,Trust
+Q60,People you know personally (B),G007_33_B,C20,Trust
+Q61,People you meet for the first time (B),G007_34_B,C20,Trust
+Q62,People of another religion (B),G007_35_B,C20,Trust
+Q63,People of another nationality (B),G007_36_B,C20,Trust
+Q64,Churches,E069_01,C2,Confidence
+Q66,The Press,E069_04,C2,Confidence
+Q67,Television,E069_10,C2,Confidence
+Q68,Labour Unions,E069_05,C2,Confidence
+Q72,The Political Parties,E069_12,C2,Confidence
+Q73,Parliament,E069_07,C2,Confidence
+Q74,The Civil Services,E069_08,C2,Confidence
+Q75,Universities,E069_54,C2,Confidence
+Q77,Major Companies,E069_13,C2,Confidence
+Q78,Banks,E069_41,C2,Confidence
+Q79,The Environmental Protection Movement,E069_14,C2,Confidence
+Q80,The Women´s Movement,E069_15,C2,Confidence
+Q81,Charitable or humanitarian organizations,E069_40,C2,Confidence
+Q106,Income equality,E035,C27,Economic Issue Position
+Q107,Private vs state ownership of business,E036,C27,Economic Issue Position
+Q108,Government responsibility,E037,C27,Economic Issue Position
+Q109,Competition good or harmful,E039,C27,Economic Issue Position
+Q110,Hard work brings success,E040,C27,Economic Issue Position
+Q111,Protecting environment vs. Economic growth,B008,C18,Environment or Growth
+Q112,pay a bribe give a gift do a favor to other to get things,E268,C34,Scale corruption in [my country]
+Q121,Evaluate the impact of immigrants on the development of [your country],G052,C44,Impact of immigrants
+Q127,Help poor people establish new lives,G058,C45,Effects of immigrants on the development of [your country]
+Q131,Secure in neighborhood,H001,C47,Feel Secure
+Q142,Losing my job or not finding a job,H006_01,C48,Worries
+Q143,Not being able to give one's children a good education,H006_02,C48,Worries
+Q149,Which more important,H008_07,C50,Freedom and Equality
+Q150,Which more important,H008_08,C50,Freedom and securiy
+Q152,first choice,E001,C22,Aims of country
+Q154,first choice,E003,C23,Aims of respondent
+Q155,second choice,E004,C23,Aims of respondent
+Q156,first choice,E005,C24,Most important
+Q157,second choice,E006,C24,Most important
+Q169,Whenever science and religion conflict religion is always right,F202,C41,Science and Religion
+Q171,How often do you attend religious services,F028,C38,Religious Service Attendance
+Q172,How often to you pray,F028B,C39,Pray Frequency
+Q173,Religious person,F034,C40,Religious person
+Q176,Nowadays one often has trouble deciding which moral rules are the right ones to follow,F206,C42,Degree of agreement
+Q177,Claiming government benefits to which you are not entitled,F114A,C4,Justifiable
+Q179,Stealing property,F114B,C4,Justifiable
+Q180,Cheating on taxes,F116,C4,Justifiable
+Q181,Someone accepting a bribe,F117,C4,Justifiable
+Q184,Abortion,F120,C4,Justifiable
+Q185,Divorce,F121,C4,Justifiable
+Q187,Suicide,F123,C4,Justifiable
+Q188,Euthanasia,F122,C4,Justifiable
+Q190,Parents beating children,F114C,C4,Justifiable
+Q191,Violence against other people,F114D,C4,Justifiable
+Q195,Death penalty,F144_02,C4,Justifiable
+Q199,Interest in politics,E023,C25,Interest in politics
+Q200,How often discusses political matters with friends,A062,C13,How often discusses political matters with friends
+Q201,Daily newspaper (B),E248B,C33,Information source
+Q202,TV news (B),E258B,C33,Information source
+Q203,Radio news (B),E259B,C33,Information source
+Q204,Mobile phone (B),E260B,C33,Information source
+Q205,Email (B),E261B,C33,Information source
+Q206,Internet (B),E262B,C33,Information source
+Q208,Talk with friends or colleagues (B),E254B,C33,Information source
+Q209,Signing a petition,E025,C5,Political action
+Q210,joining in boycotts,E026,C5,Political action
+Q211,attending lawful/peaceful demonstrations,E027,C5,Political action
+Q212,joining unofficial strikes,E028,C5,Political action
+Q213,Donating to a group or campaign,E286,C36,Social activism
+Q214,Contacting a government official,E287,C36,Social activism
+Q216,Encouraging others to vote,E289,C36,Social activism
+Q235,Having a strong leader,E114,C28,Political system
+Q236,Having experts make decisions,E115,C28,Political system
+Q238,Having a democratic political system,E117,C28,Political system
+Q239,Having a system governed by religious law in which there are no political parties or elections,E117B,C28,Political system
+Q241,Governments tax the rich and subsidize the poor.,E224,C30,Democracy
+Q242,Religious authorities interpret the laws.,E225,C30,Democracy
+Q243,People choose their leaders in free elections.,E226,C30,Democracy
+Q244,People receive state aid for unemployment.,E227,C30,Democracy
+Q246,Civil rights protect people’s liberty against oppression.,E229,C30,Democracy
+Q247,The state makes people's incomes equal,E233A,C30,Democracy
+Q248,People obey their rulers,E233B,C30,Democracy
+Q249,Women have the same rights as men.,E233,C30,Democracy
+Q250,Importance of democracy,E235,C31,Importance of democracy
+Q251,Democraticness in own country,E236,C32,Democraticness in own country
+Q253,Respect for individual human rights nowadays,E124,C29,Respect for Human Rights
+Q258,Continent; e.g. Europe Asia etc.,G062,C46,How close you feel
+Q259,World,G063,C46,How close you feel
+Q263,Respondent immigrant,G027A,C43,Immigrant
