@@ -1,5 +1,4 @@
-# Replication Materials for 
-# *Culturally Prompted LLMs Remain Anchored to Western Values*
+# Replication Materials for Culturally Prompted LLMs Remain Anchored to Western Values
 
 The repository includes the code used for data processing, statistical analyses, and the generation of figures and tables reported in the main text and Supplementary Material.
 
@@ -38,20 +37,20 @@ The repository includes the code used for data processing, statistical analyses,
 |   └── deepseek/            # DeepSeek Figures in the Supplementary Material
 │
 └── README.md
-
+```
 ---
 
 ## Data
 
 This project uses data from the **World Values Survey (WVS)**. Two WVS datasets used in the analysis exceed GitHub's file-size limit and are therefore **not included** in this repository. They can be downloaded directly from the World Values Survey website:
 
-WVS_Cross-National_Wave_7_csv_v6_0.csv
 WVS Wave 7 (2017–2022):
-https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp
+- WVS_Cross-National_Wave_7_csv_v6_0.csv
+- https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp
 
-WVS_Time_Series_1981-2022_csv_v5_0.csv
 WVS Time Series (1981–2022):
-https://www.worldvaluessurvey.org/WVSDocumentationWVL.jsp
+- WVS_Time_Series_1981-2022_csv_v5_0.csv
+- https://www.worldvaluessurvey.org/WVSDocumentationWVL.jsp
 
 All other data required to reproduce the analyses are available in the "data/" directory.
 
@@ -66,7 +65,7 @@ Additional Python and R package dependencies are documented in the corresponding
 ## Reproducing the Analyses
 
 The numbered notebooks in the Python/ directory correspond to the main stages of the data-processing pipeline:
-
+```text
 0.1_wvs_exploration.ipynb
         ↓
 0.2_wv7_data_processing.ipynb
@@ -76,7 +75,7 @@ The numbered notebooks in the Python/ directory correspond to the main stages of
 0.4_llm_experiment.ipynb
         ↓
 0.5_llm_data_processing.ipynb
-
+```
 The remaining notebooks reproduce the analyses and figures reported in the paper and Supplementary Material.
 
 The R script R/lg_mixed.R contains the linear mixed-effects model analyses and resulting files.
@@ -91,12 +90,5 @@ World Values Survey data are subject to the WVS's own terms of use and are not r
 
 For questions about the replication materials, please contact:
 
-Zhao Wang
-The University of Chicago
-zwang13@uchicago.edu
-
-or 
-
-Joshua Conrad Jackson
-Harvard University
-jcjackson@fas.harvard.edu
+- Zhao Wang, The University of Chicago, zwang13@uchicago.edu
+- Joshua Conrad Jackson, Harvard University, jcjackson@fas.harvard.edu
