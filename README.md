@@ -1,4 +1,5 @@
 # Replication Materials for Culturally Prompted LLMs Remain Anchored to Western Values
+[![DOI](https://zenodo.org/badge/1366877261.svg)](https://doi.org/10.5281/zenodo.22733101)
 
 The repository includes the code used for data processing, statistical analyses, and the generation of figures and tables reported in the main text and Supplementary Material.
 
@@ -86,9 +87,21 @@ Code in this repository is released under the MIT License.
 
 World Values Survey data are subject to the WVS's own terms of use and are not redistributed through this repository.
 
+## Citation
+
+If you use this code, please cite:
+
+[Paper citation]
+
+Software archive:
+
+[![DOI](https://zenodo.org/badge/1366877261.svg)](https://doi.org/10.5281/zenodo.22814312)
+
 ## Contact
 
 For questions about the replication materials, please contact:
 
 - Zhao Wang, The University of Chicago, zwang13@uchicago.edu
 - Joshua Conrad Jackson, Harvard University, jcjackson@fas.harvard.edu
+
+  
