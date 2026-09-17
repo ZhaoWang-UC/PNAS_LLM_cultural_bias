@@ -1,5 +1,6 @@
 # Replication Materials for Culturally Prompted LLMs Remain Anchored to Western Values
-[![DOI](https://zenodo.org/badge/1366877261.svg)](https://doi.org/10.5281/zenodo.22733101)
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22814312-blue.svg)](https://doi.org/10.5281/zenodo.22814312)
 
 The repository includes the code used for data processing, statistical analyses, and the generation of figures and tables reported in the main text and Supplementary Material.
 
@@ -87,15 +88,17 @@ Code in this repository is released under the MIT License.
 
 World Values Survey data are subject to the WVS's own terms of use and are not redistributed through this repository.
 
+
 ## Citation
 
-If you use this code, please cite:
+If you use this repository, please cite the associated preprint:
 
-[Paper citation]
+Wang, Zhao, Yilin Xu, and Joshua C. Jackson. (2026).  
+[*Culturally Prompted Large Language Models Remain Anchored to Western Values.*](https://osf.io/preprints/psyarxiv/u5pmh_v1)  
+PsyArXiv.
 
-Software archive:
-
-[![DOI](https://zenodo.org/badge/1366877261.svg)](https://doi.org/10.5281/zenodo.22814312)
+Replication materials are archived on Zenodo:  
+https://doi.org/10.5281/zenodo.22814312
 
 ## Contact
 
